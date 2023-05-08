@@ -12,3 +12,7 @@ In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py co
 http://127.0.0.1:10000/
 
 I'm looking forward to feedback in completing this Project.
+
+UPDATE FOR PROJECT REVISION:
+
+
