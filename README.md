@@ -15,5 +15,5 @@ I'm looking forward to feedback in completing this Project.
 
 UPDATE FOR PROJECT REVISION:
 
-Even with 'plotly.express' the app does't run
+Even with 'plotly.express' the app does't run. HOOWWWW?!?!
 
