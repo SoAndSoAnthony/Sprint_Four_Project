@@ -17,3 +17,5 @@ UPDATE FOR PROJECT REVISION:
 
 Even with 'plotly.express' the app does't run. HOOWWWW?!?!
 
+I've updated the EDA assessment from the inital Jupyter notebook as well as the csv path into the directory, and not from my local machine.
+
