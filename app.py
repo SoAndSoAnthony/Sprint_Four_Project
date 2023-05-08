@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px #Because for whatever reason 'plotly_express' just doesn't cut it.
 
 #loading our dataset
-cars_us = pd.read_csv("C:\\Users\\Anthony\\Desktop\\python_folder\\software_dev_project_1\\vehicles_us.csv")
+cars_us = pd.read_csv('vehicles_us.csv')
 
 #creating a new column titled 'manufacturer', which gets the first word of the 'model' column
 cars_us['manufacturer'] = cars_us['model'].apply(lambda x: x.split()[0])
