@@ -1,7 +1,7 @@
 #Getting our necessary libraries
 import pandas as pd
 import streamlit as st
-import plotly_express as px #Because for whatever reason 'plotly_express' just doesn't cut it.
+import plotly_express as px #Even with 'plotly.express', it just doesn't work... :(
 
 #loading our dataset
 cars_us = pd.read_csv('vehicles_us.csv')
