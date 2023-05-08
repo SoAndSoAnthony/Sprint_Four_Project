@@ -20,4 +20,3 @@ UPDATE FOR PROJECT REVISION:
 
 ...how can you run this particular program:
 - streamlit run app.py
- * from there, 
