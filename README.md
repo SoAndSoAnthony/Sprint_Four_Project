@@ -29,7 +29,7 @@ Thus far with the directory pieces in place, the only problem remaining is the f
 -pip install streamlit & pip install -r requirements.txt
 ...just doesn't seem to suffice. By adding in this command after it:
 - & pip install --upgrade pip
-...appears as if the build is somewhat successfull, but the last line of code appears as:
+...appears as if the build is somewhat successful, but the last line of command appears as:
 
 bash: streamlit: command not found
 
