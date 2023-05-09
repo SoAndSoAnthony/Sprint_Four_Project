@@ -19,6 +19,7 @@ UPDATE FOR PROJECT REVISION:
   -Because there wasn't a requirements.txt file in the main directory to begin with...
   
 - I've updated the EDA assessment from the inital Jupyter notebook as well as the csv path into the directory, and not from my local machine.
+   -Additional updates in said notebook are thanks to the .transform() method for cleaning up for the initial missing files in the dataset.
 - As I understand, the config.toml does reside within the .streamlit folder.
 - Draft subject to change...
 
