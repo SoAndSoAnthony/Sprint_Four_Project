@@ -28,11 +28,14 @@ UPDATE FOR PROJECT REVISION:
 
 Thus far with the directory pieces in place, the only problem remaining is the failed/cancelled efforts in building the app via Render. This command:
 -pip install streamlit & pip install -r requirements.txt
-...just doesn't seem to suffice. By adding in this command after it:
+...just doesn't seem to suffice at first. By adding in this command after it:
 - & pip install --upgrade pip
 ...appears as if the build is somewhat successful, but the last line of command appears as:
 
 bash: streamlit: command not found
 
 ...Why is that?
+
+
+...and now by deploying with that added command, the build cancels. By removing that extra command, pip install --upgrade pip, the build fails...why?
 
