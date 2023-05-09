@@ -26,7 +26,7 @@ UPDATE FOR PROJECT REVISION:
 ...how can you run this particular program:
 - streamlit run app.py
 
-Thus far with the directory pieces in place, the only problem remaining is the failed efforts in building the app via Render. This command:
+Thus far with the directory pieces in place, the only problem remaining is the failed/cancelled efforts in building the app via Render. This command:
 -pip install streamlit & pip install -r requirements.txt
 ...just doesn't seem to suffice. By adding in this command after it:
 - & pip install --upgrade pip
