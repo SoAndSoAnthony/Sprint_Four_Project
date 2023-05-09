@@ -15,11 +15,21 @@ I'm looking forward to feedback in completing this Project.
 
 UPDATE FOR PROJECT REVISION:
 - Even with 'plotly.express' the app does't run. HOOWWWW?!?!
-  -Because there wasn't a requirements.txt file to begin with...
+
+  -Because there wasn't a requirements.txt file in the main directory to begin with...
+  
 - I've updated the EDA assessment from the inital Jupyter notebook as well as the csv path into the directory, and not from my local machine.
 - As I understand, the config.toml does reside within the .streamlit folder.
 - Draft subject to change...
 
 ...how can you run this particular program:
 - streamlit run app.py
+
+Thus far with the directory pieces in place, the only problem remaining is the failed efforts in building the app via Render. This command:
+-pip install streamlit & pip install -r requirements.txt
+...just doesn't seem to suffice. By adding in this command after it:
+- & pip install --upgrade pip
+...appears as if the build is somewhat successfull, but the last line of code appears as:
+bash: streamlit: command not found
+...Why is that?
 
