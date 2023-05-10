@@ -9,7 +9,7 @@ Apparently, the plotly_express extension doesn't exist. I'm using this README te
 
 In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py command, and the result URL was this:
 
-http://127.0.0.1:10000/
+http://127.0.0.1:10000/      NOTE: In the config. file, the server file should be "0.0.0.0", not those four numbers...fingers crossed...
 
 I'm looking forward to feedback in completing this Project.
 
