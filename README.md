@@ -7,12 +7,6 @@ https://sprint-4-project-first-draft.onrender.com/
 
 Apparently, the plotly_express extension doesn't exist. I'm using this README text extension to document my findings.
 
-In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py command, and the result URL was this:
-
-http://127.0.0.1:10000/      NOTE: In the config. file, the server file should be "0.0.0.0", not those four numbers...fingers crossed...
-
-...and the build failed on bash:streamlit:command not found. Exited with status 127 while running your code.
-
 I'm looking forward to feedback in completing this Project.
 
 UPDATE FOR PROJECT REVISION:
@@ -40,4 +34,10 @@ bash: streamlit: command not found
 
 
 ...and now by deploying with that added command, the build cancels. By removing that extra command, pip install --upgrade pip, the build fails...why?
+
+In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py command, and the result URL was this:
+
+http://127.0.0.1:10000/      NOTE: In the config. file, the server file should be "0.0.0.0", not those four numbers...fingers crossed...
+
+...and the build failed on bash:streamlit:command not found. Exited with status 127 while running your code.
 
