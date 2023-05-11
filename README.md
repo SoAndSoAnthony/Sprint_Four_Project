@@ -41,5 +41,5 @@ In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py co
 
 http://127.0.0.1:10000/      NOTE: In the config. file, the server file should be "0.0.0.0", not those four numbers...fingers crossed...
 
-...and the build failed on bash:streamlit:command not found. Exited with status 127 while running your code.
+...and the build failed on bash:streamlit:command not found. Exited with status 127 while running your code. Meaning that while the deployment was somewhat successful, that error happened because somehow the code couldn't find the right path.
 
