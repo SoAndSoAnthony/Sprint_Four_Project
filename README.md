@@ -17,7 +17,9 @@ UPDATE FOR PROJECT REVISION:
 - I've updated the EDA assessment from the inital Jupyter notebook as well as the csv path into the directory, and not from my local machine.
    -Additional updates in said notebook are thanks to the .transform() method for cleaning up for the initial missing files in the dataset.
 - As I understand, the config.toml does reside within the .streamlit folder.
-- Draft subject to change...
+Draft subject to change...
+...and here's the change:
+- The config.toml file is now in the .stremalit folder of this repository. 
 
 ...how can you run this particular program:
 - streamlit run app.py
