@@ -6,7 +6,7 @@ HOW TO ACCESS:
 This is the URL for this project:
 https://sprint-4-project-first-draft.onrender.com/
 
-In order to access the page, you must have these following libraries and their compatable versions:
+In order to access the page, you must have these following libraries as they're compatable versions for render.com:
 * Python 1.3.5
 * plotly_express 0.4.1
 * streamlit 1.21.0
