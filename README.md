@@ -15,6 +15,7 @@ In order to access the page, you must have these following libraries and their c
 * An account on render.com; paired with GitHub is desired.
 
 _______________________________________________________________________________________________________________
+Developmental assessments:
 
 Apparently, the plotly_express extension doesn't exist. I'm using this README text extension to document my findings.
 
