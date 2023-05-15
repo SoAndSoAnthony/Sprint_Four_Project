@@ -1,9 +1,20 @@
 # Sprint_Four_Project
  This is a sample project per assignment
- 
-This is the URL for this project:
+__________________________________________________________________________________________________________________
+HOW TO ACCESS:
 
+This is the URL for this project:
 https://sprint-4-project-first-draft.onrender.com/
+
+In order to access the page, you must have these following libraries and their compatable versions:
+* Python 1.3.5
+* plotly_express 0.4.1
+* streamlit 1.21.0
+    - with that requirement, you will need to key in this command in your command promt: streamlit run app.py
+
+* An account on render.com; paired with GitHub is desired.
+
+_______________________________________________________________________________________________________________
 
 Apparently, the plotly_express extension doesn't exist. I'm using this README text extension to document my findings.
 
@@ -42,4 +53,5 @@ In my Terminal in the VSCode Document, I've keyed in the streamlit run app.py co
 http://127.0.0.1:10000/      NOTE: In the config. file, the server file should be "0.0.0.0", not those four numbers...fingers crossed...
 
 ...and the build failed on bash:streamlit:command not found. Exited with status 127 while running your code. Meaning that while the deployment was somewhat successful, that error happened because somehow the code couldn't find the right path.
+
 
